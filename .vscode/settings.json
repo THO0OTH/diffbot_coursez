@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/robozoz/ws/build/opencv_tests",
+        "/home/robozoz/ws/install/opencv_tests/lib/python3.8/site-packages",
+        "/home/robozoz/ws/install/image_geometry/lib/python3.8/site-packages",
+        "/home/robozoz/ws/install/gazebo_ros/lib/python3.8/site-packages",
+        "/home/robozoz/ws/install/gazebo_msgs/lib/python3.8/site-packages",
+        "/home/robozoz/ws/install/cv_bridge/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/robozoz/ws/build/opencv_tests",
+        "/home/robozoz/ws/install/opencv_tests/lib/python3.8/site-packages",
+        "/home/robozoz/ws/install/image_geometry/lib/python3.8/site-packages",
+        "/home/robozoz/ws/install/gazebo_ros/lib/python3.8/site-packages",
+        "/home/robozoz/ws/install/gazebo_msgs/lib/python3.8/site-packages",
+        "/home/robozoz/ws/install/cv_bridge/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ]
+}

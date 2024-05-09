@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/robozoz/ws/install/image_geometry/include/**",
+        "/home/robozoz/ws/install/gazebo_plugins/include/**",
+        "/home/robozoz/ws/install/gazebo_ros/include/**",
+        "/home/robozoz/ws/install/gazebo_msgs/include/**",
+        "/home/robozoz/ws/install/cv_bridge/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/robozoz/course_ws/src/diff_bot/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
