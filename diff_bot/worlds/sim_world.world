@@ -723,10 +723,40 @@
       <static>1</static>
     </model>
     <state world_name='default'>
-      <sim_time>177 960000000</sim_time>
-      <real_time>180 205312126</real_time>
-      <wall_time>1717040755 290832139</wall_time>
-      <iterations>177960</iterations>
+      <sim_time>726 877000000</sim_time>
+      <real_time>581 441584587</real_time>
+      <wall_time>1717289562 585898812</wall_time>
+      <iterations>548917</iterations>
+      <model name='car_wheel'>
+        <pose>0.239697 -0.498783 -0.001768 0 9.2e-05 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>0.239717 -0.498783 0.215052 0 1.57079 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='car_wheel_0'>
+        <pose>-1.41976 0.657615 -0.001181 0 9.2e-05 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>-1.41974 0.657615 0.215639 0 1.57079 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='car_wheel_1'>
+        <pose>-0.75411 1.10726 -0.000593 0 9.2e-05 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>-0.75409 1.10726 0.216227 0 1.57079 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
       <model name='ground_plane'>
         <pose>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -738,29 +768,29 @@
         </link>
       </model>
       <model name='my_bot'>
-        <pose>-0.104188 -0.002124 0.033995 4.2e-05 -0.010903 0.005097</pose>
+        <pose>-0.220598 1.62529 0.033995 4.2e-05 -0.010903 -1.56745</pose>
         <scale>1 1 1</scale>
         <link name='base_link'>
-          <pose>-0.104188 -0.002124 0.033995 4.2e-05 -0.010903 0.005097</pose>
-          <velocity>-0.000603 0.003005 1e-06 0.084681 0.000439 0.003319</velocity>
-          <acceleration>0.009269 -1.78838 0.001118 -0.251711 1.02058 1.04592</acceleration>
-          <wrench>0.009455 -1.82415 0.00114 0 -0 0</wrench>
+          <pose>-0.220598 1.62529 0.033995 4.2e-05 -0.010903 -1.56745</pose>
+          <velocity>0.003007 0.000593 1e-06 0.000291 -0.084682 0.003316</velocity>
+          <acceleration>-1.78834 -0.006156 0.001117 -2.54838 -1.50493 -1.8446</acceleration>
+          <wrench>-1.8241 -0.006279 0.00114 0 -0 0</wrench>
         </link>
         <link name='left_wheel_link'>
-          <pose>-0.104584 0.075868 0.034 1.57575 -1.44769 -3.14141</pose>
-          <velocity>-0.000672 0.001664 0.006874 -0.04455 -0.01934 0.003326</velocity>
-          <acceleration>-0.16898 3.35156 13.7474 -1.27173 0.638217 -1.59872</acceleration>
-          <wrench>-0.006252 0.124008 0.508655 0 -0 0</wrench>
+          <pose>-0.142605 1.62555 0.034 1.5719 0.987535 1.57507</pose>
+          <velocity>0.001665 0.000668 0.006874 -0.019246 0.044572 0.003322</velocity>
+          <acceleration>3.35105 0.170961 13.7473 0.803989 1.26893 -1.61491</acceleration>
+          <wrench>0.123989 0.006326 0.508652 0 -0 0</wrench>
         </link>
         <link name='right_wheel_link'>
-          <pose>-0.103789 -0.080117 0.033993 1.56552 -1.46449 -3.13125</pose>
-          <velocity>-0.000522 0.001677 -0.006895 -0.045442 -0.000364 0.003303</velocity>
-          <acceleration>0.1299 3.37624 -13.7899 0.162005 -1.52319 1.50519</acceleration>
-          <wrench>0.004806 0.124921 -0.510225 0 -0 0</wrench>
+          <pose>-0.298592 1.62503 0.033993 -1.56782 -1.38152 -1.57037</pose>
+          <velocity>0.001677 0.000511 -0.006895 -0.000285 0.045433 0.0033</velocity>
+          <acceleration>3.37528 -0.143525 -13.7899 1.66748 0.201723 1.48888</acceleration>
+          <wrench>0.124885 -0.00531 -0.510226 0 -0 0</wrench>
         </link>
       </model>
       <model name='my_env'>
-        <pose>-0.775483 -0.071663 0 0 -0 0</pose>
+        <pose>-0.775483 -0.07166 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='Wall_1'>
           <pose>-0.185 -1.29 0 0 -0 0</pose>
@@ -811,10 +841,187 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>0.928364 0.098107 7.71021 -0 1.45164 3.12819</pose>
+        <pose>1.06629 0.093702 14.3487 0 1.5378 3.13619</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
+    <model name='car_wheel'>
+      <link name='link'>
+        <pose>0 0 0.21682 0 1.5707 0</pose>
+        <inertial>
+          <mass>12</mass>
+          <inertia>
+            <ixx>0.167005</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.167005</iyy>
+            <iyz>0</iyz>
+            <izz>0.282065</izz>
+          </inertia>
+          <pose>0 0 0 0 -0 0</pose>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <cylinder>
+              <radius>0.21682</radius>
+              <length>0.16116</length>
+            </cylinder>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+                <fdir1>0 0 1</fdir1>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <contact>
+              <ode>
+                <min_depth>0.005</min_depth>
+                <kp>1e+08</kp>
+              </ode>
+            </contact>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='visual'>
+          <pose>0 0 -0.08058 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://car_wheel/meshes/car_wheel.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0.239697 -0.498783 0 0 -0 0</pose>
+    </model>
+    <model name='car_wheel_0'>
+      <link name='link'>
+        <pose>0 0 0.21682 0 1.5707 0</pose>
+        <inertial>
+          <mass>12</mass>
+          <inertia>
+            <ixx>0.167005</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.167005</iyy>
+            <iyz>0</iyz>
+            <izz>0.282065</izz>
+          </inertia>
+          <pose>0 0 0 0 -0 0</pose>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <cylinder>
+              <radius>0.21682</radius>
+              <length>0.16116</length>
+            </cylinder>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+                <fdir1>0 0 1</fdir1>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <contact>
+              <ode>
+                <min_depth>0.005</min_depth>
+                <kp>1e+08</kp>
+              </ode>
+            </contact>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='visual'>
+          <pose>0 0 -0.08058 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://car_wheel/meshes/car_wheel.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-1.41976 0.657615 0 0 -0 0</pose>
+    </model>
+    <model name='car_wheel_1'>
+      <link name='link'>
+        <pose>0 0 0.21682 0 1.5707 0</pose>
+        <inertial>
+          <mass>12</mass>
+          <inertia>
+            <ixx>0.167005</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.167005</iyy>
+            <iyz>0</iyz>
+            <izz>0.282065</izz>
+          </inertia>
+          <pose>0 0 0 0 -0 0</pose>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <cylinder>
+              <radius>0.21682</radius>
+              <length>0.16116</length>
+            </cylinder>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+                <fdir1>0 0 1</fdir1>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <contact>
+              <ode>
+                <min_depth>0.005</min_depth>
+                <kp>1e+08</kp>
+              </ode>
+            </contact>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='visual'>
+          <pose>0 0 -0.08058 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://car_wheel/meshes/car_wheel.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-0.75411 1.10726 0 0 -0 0</pose>
+    </model>
   </world>
 </sdf>
