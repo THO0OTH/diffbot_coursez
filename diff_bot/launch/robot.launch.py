@@ -80,13 +80,12 @@ def generate_launch_description():
                 'angle_compensate': True,
             }])
     
-    
     cmd_vel_mapper = Node(
         package="diff_bot",
         executable="cmd_vel_mapper",
         output="screen"
     )
-
+    
     return LaunchDescription([
         rsp_launch,  # Include rsp.launch.py
         TimerAction(period=3.0, actions=[controller_manager_node]),  # Delayed start of the controller manager
