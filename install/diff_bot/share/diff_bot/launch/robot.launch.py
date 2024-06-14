@@ -1,1 +1,0 @@
-/home/robozoz/course_ws/src/diff_bot/launch/robot.launch.py
