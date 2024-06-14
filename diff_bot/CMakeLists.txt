@@ -35,9 +35,9 @@ add_executable(cmd_vel_mapper src/cmd_vel_mapper.cpp)
 ament_target_dependencies(cmd_vel_mapper rclcpp geometry_msgs)
 
 install(TARGETS
-    cmd_vel_mapper
-    DESTINATION lib/${PROJECT_NAME}
-  )
+   cmd_vel_mapper
+   DESTINATION lib/${PROJECT_NAME}
+ )
 
 install(
   DIRECTORY
